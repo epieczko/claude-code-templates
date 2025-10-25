@@ -1,0 +1,353 @@
+TOP AGENTS FOR BETTY MIGRATION
+================================================================================
+
+Total recommended agents: 87
+
+1. nia-oracle (Score: 96.2/100)
+   Category: deep-research-team | Type: specialized
+   Expert research agent specialized in leveraging Nia's knowledge tools. Use PROACTIVELY for discoveri...
+
+2. git-flow-manager (Score: 89.5/100)
+   Category: git | Type: specialized
+   Git Flow workflow manager. Use PROACTIVELY for Git Flow operations including branch creation, mergin...
+
+3. graphql-architect (Score: 88.2/100)
+   Category: api-graphql | Type: specialized
+   GraphQL schema design and API architecture specialist. Use PROACTIVELY for GraphQL schema design, re...
+
+4. cli-ui-designer (Score: 85.8/100)
+   Category: development-team | Type: core
+   CLI interface design specialist. Use PROACTIVELY to create terminal-inspired user interfaces with mo...
+
+5. unused-code-cleaner (Score: 85.0/100)
+   Category: development-tools | Type: core
+   Detects and removes unused code (imports, functions, classes) across multiple languages. Use PROACTI...
+
+6. computer-vision-engineer (Score: 84.4/100)
+   Category: data-ai | Type: core
+   Computer vision and image processing specialist. Use PROACTIVELY for image analysis, object detectio...
+
+7. business-analyst (Score: 83.2/100)
+   Category: business-marketing | Type: specialized
+   Business metrics analysis and reporting specialist. Use PROACTIVELY for KPI tracking, revenue analys...
+
+8. fact-checker (Score: 83.2/100)
+   Category: deep-research-team | Type: specialized
+   Fact verification and source validation specialist. Use PROACTIVELY for claim verification, source c...
+
+9. model-evaluator (Score: 82.9/100)
+   Category: ai-specialists | Type: core
+   AI model evaluation and benchmarking specialist. Use PROACTIVELY for model selection, performance co...
+
+10. react-performance-optimizer (Score: 82.8/100)
+   Category: web-tools | Type: specialized
+   Specialist in React performance patterns, bundle optimization, and Core Web Vitals. Use PROACTIVELY ...
+
+11. fullstack-developer (Score: 80.8/100)
+   Category: development-team | Type: core
+   Full-stack development specialist covering frontend, backend, and database technologies. Use PROACTI...
+
+12. data-scientist (Score: 79.8/100)
+   Category: data-ai | Type: core
+   Data analysis and statistical modeling specialist. Use PROACTIVELY for exploratory data analysis, st...
+
+13. supabase-schema-architect (Score: 79.8/100)
+   Category: database | Type: core
+   Supabase database schema design specialist. Use PROACTIVELY for database schema design, migration pl...
+
+14. nextjs-architecture-expert (Score: 79.8/100)
+   Category: web-tools | Type: specialized
+   Master of Next.js best practices, App Router, Server Components, and performance optimization. Use P...
+
+15. database-architect (Score: 79.6/100)
+   Category: database | Type: core
+   Database architecture and design specialist. Use PROACTIVELY for database design decisions, data mod...
+
+16. graphql-security-specialist (Score: 79.6/100)
+   Category: api-graphql | Type: specialized
+   GraphQL API security and authorization specialist. Use PROACTIVELY for GraphQL security audits, auth...
+
+17. marketing-attribution-analyst (Score: 79.3/100)
+   Category: business-marketing | Type: specialized
+   Marketing attribution and performance analysis specialist. Use PROACTIVELY for campaign tracking, at...
+
+18. mcp-server-architect (Score: 79.3/100)
+   Category: mcp-dev-team | Type: specialized
+   MCP server architecture and implementation specialist. Use PROACTIVELY for designing servers, implem...
+
+19. command-expert (Score: 79.1/100)
+   Category: development-tools | Type: core
+   CLI command development specialist for the claude-code-templates system. Use PROACTIVELY for command...
+
+20. performance-profiler (Score: 79.1/100)
+   Category: development-tools | Type: core
+   Performance analysis and optimization specialist. Use PROACTIVELY for performance bottlenecks, memor...
+
+21. mcp-deployment-orchestrator (Score: 79.1/100)
+   Category: mcp-dev-team | Type: specialized
+   MCP server deployment and operations specialist. Use PROACTIVELY for containerization, Kubernetes de...
+
+22. neon-database-architect (Score: 79.0/100)
+   Category: database | Type: core
+   Neon database architecture specialist. Use PROACTIVELY for database schema design, Drizzle ORM integ...
+
+23. legacy-modernizer (Score: 78.9/100)
+   Category: modernization | Type: specialized
+   Refactor legacy codebases, migrate outdated frameworks, and implement gradual modernization. Handles...
+
+24. test-engineer (Score: 78.5/100)
+   Category: development-tools | Type: core
+   Test automation and quality assurance specialist. Use PROACTIVELY for test strategy, test automation...
+
+25. mcp-testing-engineer (Score: 78.5/100)
+   Category: mcp-dev-team | Type: specialized
+   MCP server testing and quality assurance specialist. Use PROACTIVELY for protocol compliance, securi...
+
+26. supabase-realtime-optimizer (Score: 78.2/100)
+   Category: realtime | Type: specialized
+   Supabase realtime performance specialist. Use PROACTIVELY to optimize realtime subscriptions, debug ...
+
+27. prompt-engineer (Score: 77.5/100)
+   Category: ai-specialists | Type: core
+   Expert prompt optimization for LLMs and AI systems. Use PROACTIVELY when building AI features, impro...
+
+28. academic-researcher (Score: 77.0/100)
+   Category: deep-research-team | Type: specialized
+   Academic research specialist for scholarly sources, peer-reviewed papers, and academic literature. U...
+
+29. neon-auth-specialist (Score: 76.7/100)
+   Category: database | Type: core
+   Neon Auth implementation specialist. Use PROACTIVELY for Stack Auth integration, user management set...
+
+30. docusaurus-expert (Score: 76.7/100)
+   Category: documentation | Type: core
+   Docusaurus documentation specialist. Use PROACTIVELY when working with Docusaurus documentation for ...
+
+31. python-pro (Score: 76.2/100)
+   Category: programming-languages | Type: core
+   Write idiomatic Python code with advanced features like decorators, generators, and async/await. Opt...
+
+32. product-strategist (Score: 76.2/100)
+   Category: business-marketing | Type: specialized
+   Product strategy and roadmap planning specialist. Use PROACTIVELY for product positioning, market an...
+
+33. graphql-performance-optimizer (Score: 75.9/100)
+   Category: api-graphql | Type: specialized
+   GraphQL performance analysis and optimization specialist. Use PROACTIVELY for query performance issu...
+
+34. typescript-pro (Score: 75.8/100)
+   Category: programming-languages | Type: core
+   Write idiomatic TypeScript with advanced type system features, strict typing, and modern patterns. M...
+
+35. php-pro (Score: 75.7/100)
+   Category: programming-languages | Type: core
+   Write idiomatic PHP code with generators, iterators, SPL data structures, and modern OOP features. U...
+
+36. shell-scripting-pro (Score: 75.6/100)
+   Category: programming-languages | Type: core
+   Write robust shell scripts with proper error handling, POSIX compliance, and automation patterns. Ma...
+
+37. llms-maintainer (Score: 75.5/100)
+   Category: ai-specialists | Type: core
+   LLMs.txt roadmap file generator and maintainer. Use PROACTIVELY after build completion, content chan...
+
+38. rust-pro (Score: 75.0/100)
+   Category: programming-languages | Type: core
+   Write idiomatic Rust with ownership patterns, lifetimes, and trait implementations. Masters async/aw...
+
+39. c-pro (Score: 74.9/100)
+   Category: programming-languages | Type: core
+   Write efficient C code with proper memory management, pointer arithmetic, and system calls. Handles ...
+
+40. devops-troubleshooter (Score: 74.8/100)
+   Category: devops-infrastructure | Type: core
+   Production troubleshooting and incident response specialist. Use PROACTIVELY for debugging issues, l...
+
+41. seo-analyzer (Score: 74.8/100)
+   Category: web-tools | Type: specialized
+   SEO analysis and optimization specialist. Use PROACTIVELY for technical SEO audits, meta tag optimiz...
+
+42. error-detective (Score: 74.7/100)
+   Category: development-tools | Type: core
+   Log analysis and error pattern detection specialist. Use PROACTIVELY for debugging issues, analyzing...
+
+43. golang-pro (Score: 74.7/100)
+   Category: programming-languages | Type: core
+   Write idiomatic Go code with goroutines, channels, and interfaces. Optimizes concurrency, implements...
+
+44. cpp-pro (Score: 74.5/100)
+   Category: programming-languages | Type: core
+   Write idiomatic C++ code with modern features, RAII, smart pointers, and STL algorithms. Handles tem...
+
+45. architecture-modernizer (Score: 74.5/100)
+   Category: modernization | Type: specialized
+   Software architecture modernization specialist. Use PROACTIVELY for monolith decomposition, microser...
+
+46. c-sharp-pro (Score: 74.1/100)
+   Category: programming-languages | Type: core
+   Write idiomatic C# code with modern language features, async patterns, and LINQ. Masters .NET ecosys...
+
+47. frontend-developer (Score: 74.0/100)
+   Category: development-team | Type: core
+   Frontend development specialist for React applications and responsive design. Use PROACTIVELY for UI...
+
+48. javascript-pro (Score: 73.9/100)
+   Category: programming-languages | Type: core
+   Master modern JavaScript with ES6+, async patterns, and Node.js APIs. Handles promises, event loops,...
+
+49. security-auditor (Score: 73.8/100)
+   Category: security | Type: core
+   Review code for vulnerabilities, implement secure authentication, and ensure OWASP compliance. Handl...
+
+50. sql-pro (Score: 73.7/100)
+   Category: programming-languages | Type: core
+   Write complex SQL queries, optimize execution plans, and design normalized schemas. Masters CTEs, wi...
+
+51. mobile-developer (Score: 73.2/100)
+   Category: development-team | Type: core
+   Cross-platform mobile development specialist for React Native and Flutter. Use PROACTIVELY for mobil...
+
+52. api-documenter (Score: 73.0/100)
+   Category: documentation | Type: core
+   Create OpenAPI/Swagger specs, generate SDKs, and write developer documentation. Handles versioning, ...
+
+53. load-testing-specialist (Score: 73.0/100)
+   Category: performance-testing | Type: core
+   Load testing and stress testing specialist. Use PROACTIVELY for creating comprehensive load test sce...
+
+54. test-automator (Score: 73.0/100)
+   Category: performance-testing | Type: core
+   Create comprehensive test suites with unit, integration, and e2e tests. Sets up CI pipelines, mockin...
+
+55. ios-developer (Score: 72.9/100)
+   Category: development-team | Type: core
+   Native iOS development specialist with Swift and SwiftUI. Use PROACTIVELY for iOS applications, UIKi...
+
+56. monitoring-specialist (Score: 72.8/100)
+   Category: devops-infrastructure | Type: core
+   Monitoring and observability infrastructure specialist. Use PROACTIVELY for metrics collection, aler...
+
+57. network-engineer (Score: 72.8/100)
+   Category: devops-infrastructure | Type: core
+   Network connectivity and infrastructure specialist. Use PROACTIVELY for debugging network issues, lo...
+
+58. performance-engineer (Score: 72.8/100)
+   Category: performance-testing | Type: core
+   Profile applications, optimize bottlenecks, and implement caching strategies. Handles load testing, ...
+
+59. database-admin (Score: 72.7/100)
+   Category: database | Type: core
+   Database administration specialist for operations, backups, replication, and monitoring. Use PROACTI...
+
+60. terraform-specialist (Score: 72.7/100)
+   Category: devops-infrastructure | Type: core
+   Terraform and Infrastructure as Code specialist. Use PROACTIVELY for Terraform modules, state manage...
+
+61. payment-integration (Score: 72.5/100)
+   Category: business-marketing | Type: specialized
+   Payment systems integration specialist. Use PROACTIVELY for Stripe, PayPal, and payment processor im...
+
+62. mcp-protocol-specialist (Score: 72.5/100)
+   Category: mcp-dev-team | Type: specialized
+   MCP protocol specification and standards specialist. Use PROACTIVELY for protocol design, specificat...
+
+63. ai-engineer (Score: 72.3/100)
+   Category: data-ai | Type: core
+   LLM application and RAG system specialist. Use PROACTIVELY for LLM integrations, RAG systems, prompt...
+
+64. ml-engineer (Score: 72.2/100)
+   Category: data-ai | Type: core
+   ML production systems and model deployment specialist. Use PROACTIVELY for ML pipelines, model servi...
+
+65. backend-architect (Score: 72.2/100)
+   Category: development-team | Type: core
+   Backend system architecture and API design specialist. Use PROACTIVELY for RESTful APIs, microservic...
+
+66. quant-analyst (Score: 72.1/100)
+   Category: data-ai | Type: core
+   Quantitative finance and algorithmic trading specialist. Use PROACTIVELY for financial modeling, tra...
+
+67. data-engineer (Score: 72.0/100)
+   Category: data-ai | Type: core
+   Data pipeline and analytics infrastructure specialist. Use PROACTIVELY for ETL/ELT pipelines, data w...
+
+68. database-optimization (Score: 72.0/100)
+   Category: database | Type: core
+   Database performance optimization and query tuning specialist. Use PROACTIVELY for slow queries, ind...
+
+69. mcp-integration-engineer (Score: 72.0/100)
+   Category: mcp-dev-team | Type: specialized
+   MCP server integration and orchestration specialist. Use PROACTIVELY for client-server integration, ...
+
+70. technical-writer (Score: 71.8/100)
+   Category: documentation | Type: core
+   Technical writing and content creation specialist. Use PROACTIVELY for user guides, tutorials, READM...
+
+71. compliance-specialist (Score: 71.8/100)
+   Category: security | Type: core
+   Security compliance and regulatory framework specialist. Use PROACTIVELY for compliance assessments,...
+
+72. penetration-tester (Score: 71.8/100)
+   Category: security | Type: core
+   Penetration testing and ethical hacking specialist. Use PROACTIVELY for security assessments, vulner...
+
+73. task-decomposition-expert (Score: 71.6/100)
+   Category: ai-specialists | Type: core
+   Complex goal breakdown specialist. Use PROACTIVELY for multi-step projects requiring different capab...
+
+74. web-accessibility-checker (Score: 71.5/100)
+   Category: web-tools | Type: specialized
+   Web accessibility compliance specialist. Use PROACTIVELY for WCAG compliance audits, accessibility t...
+
+75. database-optimizer (Score: 71.3/100)
+   Category: database | Type: core
+   SQL query optimization and database schema design specialist. Use PROACTIVELY for N+1 problems, slow...
+
+76. web-vitals-optimizer (Score: 71.3/100)
+   Category: performance-testing | Type: core
+   Core Web Vitals optimization specialist. Use PROACTIVELY for improving LCP, FID, CLS, and other web ...
+
+77. changelog-generator (Score: 71.1/100)
+   Category: documentation | Type: core
+   Changelog and release notes specialist. Use PROACTIVELY for generating changelogs from git history, ...
+
+78. api-security-audit (Score: 70.8/100)
+   Category: security | Type: core
+   API security audit specialist. Use PROACTIVELY for REST API security audits, authentication vulnerab...
+
+79. legal-advisor (Score: 70.5/100)
+   Category: business-marketing | Type: specialized
+   Legal documentation and compliance specialist. Use PROACTIVELY for privacy policies, terms of servic...
+
+80. ui-ux-designer (Score: 70.3/100)
+   Category: development-team | Type: core
+   UI/UX design specialist for user-centered design and interface systems. Use PROACTIVELY for user res...
+
+81. context-manager (Score: 67.2/100)
+   Category: development-tools | Type: core
+   Context management specialist for multi-agent workflows and long-running tasks. Use PROACTIVELY for ...
+
+82. dx-optimizer (Score: 66.5/100)
+   Category: development-tools | Type: core
+   Developer Experience specialist for tooling, setup, and workflow optimization. Use PROACTIVELY when ...
+
+83. react-performance-optimization (Score: 66.2/100)
+   Category: performance-testing | Type: core
+   React performance optimization specialist. Use PROACTIVELY for identifying and fixing performance bo...
+
+84. search-specialist (Score: 64.5/100)
+   Category: ai-specialists | Type: core
+   Expert web researcher using advanced search techniques and synthesis. Masters search operators, resu...
+
+85. hackathon-ai-strategist (Score: 62.5/100)
+   Category: ai-specialists | Type: core
+   Expert hackathon strategist and judge. Use PROACTIVELY for AI hackathon ideation, project evaluation...
+
+86. debugger (Score: 56.6/100)
+   Category: development-tools | Type: core
+   Debugging specialist for errors, test failures, and unexpected behavior. Use PROACTIVELY when encoun...
+
+87. code-reviewer (Score: 56.0/100)
+   Category: development-tools | Type: core
+   Expert code review specialist for quality, security, and maintainability. Use PROACTIVELY after writ...
+
