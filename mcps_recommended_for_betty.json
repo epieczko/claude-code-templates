@@ -1,0 +1,1233 @@
+{
+  "total_mcps": 51,
+  "source": "claude-code-templates repository",
+  "migration_status": "recommended_for_betty",
+  "categories": {
+    "highly_recommended": 36,
+    "recommended": 15
+  },
+  "mcps": [
+    {
+      "name": "mcp-server-box",
+      "file_name": "box",
+      "description": "The Box MCP Server is a Python project that integrates with the Box API to perform various operations such as file search, text extraction, AI-based querying, and data extraction. It leverages the box-sdk-gen library and provides a set of tools to interact with Box files and folders.",
+      "category": "devtools",
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/path/to/mcp-server-box",
+        "run",
+        "src/mcp_server_box.py"
+      ],
+      "env": {},
+      "file_path": "cli-tool/components/mcps/devtools/box.json",
+      "quality_score": 88.7,
+      "score_details": {
+        "description_score": 28.7,
+        "config_score": 25,
+        "category_score": 15,
+        "dependency_score": 20,
+        "total_score": 88.7
+      },
+      "platform_dependencies": []
+    },
+    {
+      "name": "LaunchDarkly",
+      "file_name": "launchdarkly",
+      "description": "Official LaunchDarkly MCP Server for feature flag management and experimentation. Enables AI agents to interact with LaunchDarkly APIs for managing feature flags, AI configs, targeting rules, and gradual rollouts across multiple environments.",
+      "category": "devtools",
+      "command": "npx",
+      "args": [
+        "-y",
+        "--package",
+        "@launchdarkly/mcp-server",
+        "--",
+        "mcp",
+        "start",
+        "--api-key",
+        "api-xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+      ],
+      "env": {},
+      "file_path": "cli-tool/components/mcps/devtools/launchdarkly.json",
+      "quality_score": 85.2,
+      "score_details": {
+        "description_score": 25.2,
+        "config_score": 25,
+        "category_score": 15,
+        "dependency_score": 20,
+        "total_score": 85.2
+      },
+      "platform_dependencies": []
+    },
+    {
+      "name": "terraform",
+      "file_name": "terraform",
+      "description": "The Terraform MCP Server is a Model Context Protocol (MCP) server that provides seamless integration with Terraform Registry APIs, enabling advanced automation and interaction capabilities for Infrastructure as Code (IaC) development.",
+      "category": "devtools",
+      "command": "docker",
+      "args": [
+        "run",
+        "-i",
+        "--rm",
+        "hashicorp/terraform-mcp-server:0.2.3"
+      ],
+      "env": {},
+      "file_path": "cli-tool/components/mcps/devtools/terraform.json",
+      "quality_score": 84.5,
+      "score_details": {
+        "description_score": 24.5,
+        "config_score": 25,
+        "category_score": 15,
+        "dependency_score": 20,
+        "total_score": 84.5
+      },
+      "platform_dependencies": []
+    },
+    {
+      "name": "pulumi",
+      "file_name": "pulumi",
+      "description": "The Pulumi Model Context Protocol (MCP) server enables advanced Infrastructure as Code development capabilities for connected agents, providing tools for cloud resource discovery and management using Pulumi Cloud and the Pulumi CLI.",
+      "category": "devtools",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@pulumi/mcp-server@latest",
+        "stdio"
+      ],
+      "env": {},
+      "file_path": "cli-tool/components/mcps/devtools/pulumi.json",
+      "quality_score": 84.3,
+      "score_details": {
+        "description_score": 24.3,
+        "config_score": 25,
+        "category_score": 15,
+        "dependency_score": 20,
+        "total_score": 84.3
+      },
+      "platform_dependencies": []
+    },
+    {
+      "name": "elasticsearch-mcp-server",
+      "file_name": "elasticsearch",
+      "description": "MCP server for connecting to Elasticsearch data and indices. Supports search queries, mappings, ES|QL, and shard information through natural language interactions.",
+      "category": "devtools",
+      "command": "docker",
+      "args": [
+        "run",
+        "-i",
+        "--rm",
+        "-e",
+        "ES_URL",
+        "-e",
+        "ES_API_KEY",
+        "docker.elastic.co/mcp/elasticsearch",
+        "stdio"
+      ],
+      "env": {
+        "ES_URL": "<elasticsearch-cluster-url>",
+        "ES_API_KEY": "<elasticsearch-API-key>"
+      },
+      "file_path": "cli-tool/components/mcps/devtools/elasticsearch.json",
+      "quality_score": 83.6,
+      "score_details": {
+        "description_score": 18.6,
+        "config_score": 30,
+        "category_score": 15,
+        "dependency_score": 20,
+        "total_score": 83.6
+      },
+      "platform_dependencies": []
+    },
+    {
+      "name": "monday-api-mcp",
+      "file_name": "monday",
+      "description": "Enable AI agents to operate reliably within real workflows. This MCP is monday.com's open framework for connecting agents into your work OS - giving them secure access to structured data, tools to take action, and the context needed to make smart decisions.",
+      "category": "productivity",
+      "command": "npx",
+      "args": [
+        "@mondaydotcomorg/monday-api-mcp",
+        "-t",
+        "your_monday_api_token"
+      ],
+      "env": {},
+      "file_path": "cli-tool/components/mcps/productivity/monday.json",
+      "quality_score": 81.4,
+      "score_details": {
+        "description_score": 26.4,
+        "config_score": 25,
+        "category_score": 15,
+        "dependency_score": 15,
+        "total_score": 81.4
+      },
+      "platform_dependencies": [
+        "monday"
+      ]
+    },
+    {
+      "name": "bitbucket",
+      "file_name": "mcp-server-atlassian-bitbucket",
+      "description": "A Node.js/TypeScript Model Context Protocol (MCP) server for Atlassian Bitbucket Cloud. Enables AI systems (e.g., LLMs like Claude or Cursor AI) to securely interact with your repositories, pull requests, workspaces, and code in real time.",
+      "category": "devtools",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@aashari/mcp-server-atlassian-bitbucket"
+      ],
+      "env": {},
+      "file_path": "cli-tool/components/mcps/devtools/mcp-server-atlassian-bitbucket.json",
+      "quality_score": 79.9,
+      "score_details": {
+        "description_score": 24.9,
+        "config_score": 25,
+        "category_score": 15,
+        "dependency_score": 15,
+        "total_score": 79.9
+      },
+      "platform_dependencies": [
+        "bitbucket"
+      ]
+    },
+    {
+      "name": "postgresql",
+      "file_name": "postgresql-integration",
+      "description": "Connect to PostgreSQL databases for advanced data operations, complex queries, and enterprise database management.",
+      "category": "database",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-postgres"
+      ],
+      "env": {
+        "POSTGRES_CONNECTION_STRING": "postgresql://user:password@localhost:5432/dbname"
+      },
+      "file_path": "cli-tool/components/mcps/database/postgresql-integration.json",
+      "quality_score": 79.5,
+      "score_details": {
+        "description_score": 9.5,
+        "config_score": 30,
+        "category_score": 20,
+        "dependency_score": 20,
+        "total_score": 79.5
+      },
+      "platform_dependencies": []
+    },
+    {
+      "name": "firecrawl-mcp",
+      "file_name": "firecrawl",
+      "description": "A Model Context Protocol (MCP) server implementation that integrates with Firecrawl for web scraping capabilities.",
+      "category": "devtools",
+      "command": "npx",
+      "args": [
+        "-y",
+        "firecrawl-mcp"
+      ],
+      "env": {
+        "FIRECRAWL_API_KEY": "YOUR-API-KEY"
+      },
+      "file_path": "cli-tool/components/mcps/devtools/firecrawl.json",
+      "quality_score": 79.5,
+      "score_details": {
+        "description_score": 14.5,
+        "config_score": 30,
+        "category_score": 15,
+        "dependency_score": 20,
+        "total_score": 79.5
+      },
+      "platform_dependencies": []
+    },
+    {
+      "name": "mysql",
+      "file_name": "mysql-integration",
+      "description": "Connect to MySQL databases for direct data access, queries, and database management within Claude Code workflows.",
+      "category": "database",
+      "command": "uvx",
+      "args": [
+        "mcp-server-mysql"
+      ],
+      "env": {
+        "MYSQL_CONNECTION_STRING": "mysql://user:password@localhost:3306/dbname"
+      },
+      "file_path": "cli-tool/components/mcps/database/mysql-integration.json",
+      "quality_score": 79.4,
+      "score_details": {
+        "description_score": 9.4,
+        "config_score": 30,
+        "category_score": 20,
+        "dependency_score": 20,
+        "total_score": 79.4
+      },
+      "platform_dependencies": []
+    },
+    {
+      "name": "codacy",
+      "file_name": "codacy",
+      "description": "MCP Server for the Codacy API, enabling access to repositories, files, quality, coverage, security and more.",
+      "category": "devtools",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@codacy/codacy-mcp"
+      ],
+      "env": {
+        "CODACY_ACCOUNT_TOKEN": "<YOUR_TOKEN>"
+      },
+      "file_path": "cli-tool/components/mcps/devtools/codacy.json",
+      "quality_score": 79.0,
+      "score_details": {
+        "description_score": 14.0,
+        "config_score": 30,
+        "category_score": 15,
+        "dependency_score": 20,
+        "total_score": 79.0
+      },
+      "platform_dependencies": []
+    },
+    {
+      "name": "firefly",
+      "file_name": "firefly-mcp",
+      "description": "Connect to Firefly AI services for advanced AI-powered development assistance, code analysis, and intelligent suggestions directly in your Claude Code environment.",
+      "category": "devtools",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@fireflyai/firefly-mcp"
+      ],
+      "env": {
+        "FIREFLY_ACCESS_KEY": "your_access_key",
+        "FIREFLY_SECRET_KEY": "your_secret_key"
+      },
+      "file_path": "cli-tool/components/mcps/devtools/firefly-mcp.json",
+      "quality_score": 78.6,
+      "score_details": {
+        "description_score": 13.6,
+        "config_score": 30,
+        "category_score": 15,
+        "dependency_score": 20,
+        "total_score": 78.6
+      },
+      "platform_dependencies": []
+    },
+    {
+      "name": "circleci-mcp-server",
+      "file_name": "circleci",
+      "description": "Integrate CircleCI build and deployment pipeline management with your Claude Code workflow. Monitor builds, trigger deployments, and access project insights.",
+      "category": "devtools",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@circleci/mcp-server-circleci"
+      ],
+      "env": {
+        "CIRCLECI_TOKEN": "your-circleci-token",
+        "CIRCLECI_BASE_URL": "https://circleci.com"
+      },
+      "file_path": "cli-tool/components/mcps/devtools/circleci.json",
+      "quality_score": 78.1,
+      "score_details": {
+        "description_score": 13.1,
+        "config_score": 30,
+        "category_score": 15,
+        "dependency_score": 20,
+        "total_score": 78.1
+      },
+      "platform_dependencies": []
+    },
+    {
+      "name": "MongoDB",
+      "file_name": "mongodb",
+      "description": "A Model Context Protocol server to connect to MongoDB databases and MongoDB Atlas Clusters.",
+      "category": "devtools",
+      "command": "npx",
+      "args": [
+        "-y",
+        "mongodb-mcp-server@latest",
+        "--readOnly"
+      ],
+      "env": {
+        "MDB_MCP_CONNECTION_STRING": "mongodb://localhost:27017/myDatabase"
+      },
+      "file_path": "cli-tool/components/mcps/devtools/mongodb.json",
+      "quality_score": 77.6,
+      "score_details": {
+        "description_score": 12.6,
+        "config_score": 30,
+        "category_score": 15,
+        "dependency_score": 20,
+        "total_score": 77.6
+      },
+      "platform_dependencies": []
+    },
+    {
+      "name": "context7",
+      "file_name": "context7",
+      "description": "Context7 MCP pulls up-to-date, version-specific documentation and code examples straight from the source — and places them directly into your prompt.",
+      "category": "devtools",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@upstash/context7-mcp"
+      ],
+      "env": {},
+      "file_path": "cli-tool/components/mcps/devtools/context7.json",
+      "quality_score": 77.4,
+      "score_details": {
+        "description_score": 17.4,
+        "config_score": 25,
+        "category_score": 15,
+        "dependency_score": 20,
+        "total_score": 77.4
+      },
+      "platform_dependencies": []
+    },
+    {
+      "name": "chrome-devtools",
+      "file_name": "chrome-devtools",
+      "description": "A Model Context Protocol server for interacting with Chrome DevTools, enabling browser automation, debugging, and performance analysis capabilities.",
+      "category": "devtools",
+      "command": "npx",
+      "args": [
+        "-y",
+        "chrome-devtools-mcp@latest"
+      ],
+      "env": {},
+      "file_path": "cli-tool/components/mcps/devtools/chrome-devtools.json",
+      "quality_score": 77.3,
+      "score_details": {
+        "description_score": 17.3,
+        "config_score": 25,
+        "category_score": 15,
+        "dependency_score": 20,
+        "total_score": 77.3
+      },
+      "platform_dependencies": []
+    },
+    {
+      "name": "executeautomation-playwright-server",
+      "file_name": "playwright-mcp-server",
+      "description": "A Model Context Protocol server that provides browser automation capabilities using Playwright. This server enables LLMs to interact with web pages, take screenshots, generate test code, web scraps the page and execute JavaScript in a real browser environment.",
+      "category": "browser_automation",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@executeautomation/playwright-mcp-server"
+      ],
+      "env": {},
+      "file_path": "cli-tool/components/mcps/browser_automation/playwright-mcp-server.json",
+      "quality_score": 76.7,
+      "score_details": {
+        "description_score": 26.7,
+        "config_score": 25,
+        "category_score": 10,
+        "dependency_score": 15,
+        "total_score": 76.7
+      },
+      "platform_dependencies": [
+        "playwright"
+      ]
+    },
+    {
+      "name": "TestSprite",
+      "file_name": "testsprite",
+      "description": "TestSprite’s MCP reads your intent, tests your code, and tells you what to fix.",
+      "category": "devtools",
+      "command": "npx",
+      "args": [
+        "@testsprite/testsprite-mcp@latest"
+      ],
+      "env": {
+        "API_KEY": "your-api-key"
+      },
+      "file_path": "cli-tool/components/mcps/devtools/testsprite.json",
+      "quality_score": 76.6,
+      "score_details": {
+        "description_score": 11.6,
+        "config_score": 30,
+        "category_score": 15,
+        "dependency_score": 20,
+        "total_score": 76.6
+      },
+      "platform_dependencies": []
+    },
+    {
+      "name": "playwright-server",
+      "file_name": "playwright-mcp",
+      "description": "A Model Context Protocol (MCP) server that provides browser automation capabilities using Playwright. This server enables LLMs to interact with web pages through structured accessibility snapshots, bypassing the need for screenshots or visually-tuned models.",
+      "category": "browser_automation",
+      "command": "npx",
+      "args": [
+        "@playwright/mcp@latest"
+      ],
+      "env": {},
+      "file_path": "cli-tool/components/mcps/browser_automation/playwright-mcp.json",
+      "quality_score": 76.5,
+      "score_details": {
+        "description_score": 26.5,
+        "config_score": 25,
+        "category_score": 10,
+        "dependency_score": 15,
+        "total_score": 76.5
+      },
+      "platform_dependencies": [
+        "playwright"
+      ]
+    },
+    {
+      "name": "browserbase",
+      "file_name": "mcp-server-browserbase",
+      "description": "This server provides cloud browser automation capabilities using Browserbase and Stagehand. It enables LLMs to interact with web pages, take screenshots, extract information, and perform automated actions with atomic precision.",
+      "category": "browser_automation",
+      "command": "npx",
+      "args": [
+        "@browserbasehq/mcp-server-browserbase"
+      ],
+      "env": {
+        "BROWSERBASE_API_KEY": "",
+        "BROWSERBASE_PROJECT_ID": "",
+        "GEMINI_API_KEY": ""
+      },
+      "file_path": "cli-tool/components/mcps/browser_automation/mcp-server-browserbase.json",
+      "quality_score": 73.9,
+      "score_details": {
+        "description_score": 18.9,
+        "config_score": 30,
+        "category_score": 10,
+        "dependency_score": 15,
+        "total_score": 73.9
+      },
+      "platform_dependencies": [
+        "browserbase"
+      ]
+    },
+    {
+      "name": "supabase",
+      "file_name": "supabase",
+      "description": "Connect your Claude Code to Supabase using MCP",
+      "category": "database",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@supabase/mcp-server-supabase@latest",
+        "--read-only",
+        "--project-ref=<project-ref>"
+      ],
+      "env": {
+        "SUPABASE_ACCESS_TOKEN": "<personal-access-token>"
+      },
+      "file_path": "cli-tool/components/mcps/database/supabase.json",
+      "quality_score": 73.8,
+      "score_details": {
+        "description_score": 8.8,
+        "config_score": 30,
+        "category_score": 20,
+        "dependency_score": 15,
+        "total_score": 73.8
+      },
+      "platform_dependencies": [
+        "supabase"
+      ]
+    },
+    {
+      "name": "just-mcp",
+      "file_name": "just-mcp",
+      "description": "Execute Just commands and task runners seamlessly from Claude Code. Manage project tasks, run build scripts, and automate development workflows with Just integration.",
+      "category": "devtools",
+      "command": "/path/to/just-mcp",
+      "args": [
+        "--stdio"
+      ],
+      "env": {},
+      "file_path": "cli-tool/components/mcps/devtools/just-mcp.json",
+      "quality_score": 73.8,
+      "score_details": {
+        "description_score": 13.8,
+        "config_score": 25,
+        "category_score": 15,
+        "dependency_score": 20,
+        "total_score": 73.8
+      },
+      "platform_dependencies": []
+    },
+    {
+      "name": "filesystem",
+      "file_name": "filesystem-access",
+      "description": "Secure filesystem access for Claude Code with configurable directory permissions and file operations.",
+      "category": "filesystem",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/path/to/allowed/files"
+      ],
+      "env": {},
+      "file_path": "cli-tool/components/mcps/filesystem/filesystem-access.json",
+      "quality_score": 73.4,
+      "score_details": {
+        "description_score": 8.4,
+        "config_score": 25,
+        "category_score": 20,
+        "dependency_score": 20,
+        "total_score": 73.4
+      },
+      "platform_dependencies": []
+    },
+    {
+      "name": "dynatrace-mcp-server",
+      "file_name": "dynatrace",
+      "description": "Manage and interact with the Dynatrace Platform for real-time observability and monitoring.",
+      "category": "devtools",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@dynatrace-oss/dynatrace-mcp-server@latest"
+      ],
+      "env": {
+        "DT_PLATFORM_TOKEN": "",
+        "DT_ENVIRONMENT": ""
+      },
+      "file_path": "cli-tool/components/mcps/devtools/dynatrace.json",
+      "quality_score": 72.6,
+      "score_details": {
+        "description_score": 7.6,
+        "config_score": 30,
+        "category_score": 15,
+        "dependency_score": 20,
+        "total_score": 72.6
+      },
+      "platform_dependencies": []
+    },
+    {
+      "name": "grafana",
+      "file_name": "grafana",
+      "description": "A Model Context Protocol server for interacting with Grafana dashboards and monitoring. Supports both self-hosted Grafana instances and Grafana Cloud.",
+      "category": "devtools",
+      "command": "mcp-grafana",
+      "args": [],
+      "env": {
+        "GRAFANA_URL": "http://localhost:3000",
+        "GRAFANA_SERVICE_ACCOUNT_TOKEN": "<your service account token>",
+        "GRAFANA_USERNAME": "<your username>",
+        "GRAFANA_PASSWORD": "<your password>"
+      },
+      "file_path": "cli-tool/components/mcps/devtools/grafana.json",
+      "quality_score": 72.5,
+      "score_details": {
+        "description_score": 17.5,
+        "config_score": 20,
+        "category_score": 15,
+        "dependency_score": 20,
+        "total_score": 72.5
+      },
+      "platform_dependencies": []
+    },
+    {
+      "name": "ios-simulator",
+      "file_name": "ios-simulator-mcp",
+      "description": "Control iOS Simulator directly from Claude Code. Launch apps, take screenshots, manage device states, and streamline mobile development workflows.",
+      "category": "devtools",
+      "command": "npx",
+      "args": [
+        "-y",
+        "ios-simulator-mcp"
+      ],
+      "env": {},
+      "file_path": "cli-tool/components/mcps/devtools/ios-simulator-mcp.json",
+      "quality_score": 72.2,
+      "score_details": {
+        "description_score": 12.2,
+        "config_score": 25,
+        "category_score": 15,
+        "dependency_score": 20,
+        "total_score": 72.2
+      },
+      "platform_dependencies": []
+    },
+    {
+      "name": "fb-ads-mcp-server",
+      "file_name": "facebook-ads-mcp-server",
+      "description": "This project provides an MCP server acting as an interface to the Meta Ads, enabling programmatic access to Meta Ads data and management features.",
+      "category": "marketing",
+      "command": "python",
+      "args": [
+        "/path/to/your/fb-ads-mcp-server/server.py",
+        "--fb-token",
+        "YOUR_META_ACCESS_TOKEN"
+      ],
+      "env": {},
+      "file_path": "cli-tool/components/mcps/marketing/facebook-ads-mcp-server.json",
+      "quality_score": 72.2,
+      "score_details": {
+        "description_score": 17.2,
+        "config_score": 25,
+        "category_score": 10,
+        "dependency_score": 20,
+        "total_score": 72.2
+      },
+      "platform_dependencies": []
+    },
+    {
+      "name": "browser-server",
+      "file_name": "browser-use-mcp-server",
+      "description": "An MCP server that enables AI agents to control web browsers using browser-use.",
+      "category": "browser_automation",
+      "command": "browser-use-mcp-server",
+      "args": [
+        "run",
+        "server",
+        "--port",
+        "8000",
+        "--stdio",
+        "--proxy-port",
+        "9000"
+      ],
+      "env": {
+        "OPENAI_API_KEY": "your-api-key"
+      },
+      "file_path": "cli-tool/components/mcps/browser_automation/browser-use-mcp-server.json",
+      "quality_score": 71.6,
+      "score_details": {
+        "description_score": 11.6,
+        "config_score": 30,
+        "category_score": 10,
+        "dependency_score": 20,
+        "total_score": 71.6
+      },
+      "platform_dependencies": []
+    },
+    {
+      "name": "DeepGraph Next.js MCP",
+      "file_name": "deepgraph-nextjs",
+      "description": "Deep code analysis and visualization for Next.js projects. Understand component relationships, dependencies, and architecture patterns.",
+      "category": "deepgraph",
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-code-graph@latest",
+        "vercel/next.js"
+      ],
+      "env": {},
+      "file_path": "cli-tool/components/mcps/deepgraph/deepgraph-nextjs.json",
+      "quality_score": 71.2,
+      "score_details": {
+        "description_score": 11.2,
+        "config_score": 25,
+        "category_score": 15,
+        "dependency_score": 20,
+        "total_score": 71.2
+      },
+      "platform_dependencies": []
+    },
+    {
+      "name": "DevBox",
+      "file_name": "microsoft-dev-box",
+      "description": "This server enables natural language interactions for developer-focused operations like managing Dev Boxes, configurations, and pools.",
+      "category": "devtools",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@microsoft/devbox-mcp@latest"
+      ],
+      "env": {},
+      "file_path": "cli-tool/components/mcps/devtools/microsoft-dev-box.json",
+      "quality_score": 71.2,
+      "score_details": {
+        "description_score": 11.2,
+        "config_score": 25,
+        "category_score": 15,
+        "dependency_score": 20,
+        "total_score": 71.2
+      },
+      "platform_dependencies": []
+    },
+    {
+      "name": "fetch",
+      "file_name": "web-fetch",
+      "description": "Web content fetching and data extraction capabilities. Access external APIs, scrape web content, and integrate external data sources.",
+      "category": "web",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-fetch"
+      ],
+      "env": {},
+      "file_path": "cli-tool/components/mcps/web/web-fetch.json",
+      "quality_score": 71.1,
+      "score_details": {
+        "description_score": 11.1,
+        "config_score": 25,
+        "category_score": 15,
+        "dependency_score": 20,
+        "total_score": 71.1
+      },
+      "platform_dependencies": []
+    },
+    {
+      "name": "stripe",
+      "file_name": "stripe",
+      "description": "Let your AI agents interact with the Stripe API by using our MCP server.",
+      "category": "devtools",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@stripe/mcp",
+        "--tools=all"
+      ],
+      "env": {
+        "STRIPE_SECRET_KEY": "your_stripe_secret_key_here"
+      },
+      "file_path": "cli-tool/components/mcps/devtools/stripe.json",
+      "quality_score": 71.0,
+      "score_details": {
+        "description_score": 11.0,
+        "config_score": 30,
+        "category_score": 15,
+        "dependency_score": 15,
+        "total_score": 71.0
+      },
+      "platform_dependencies": [
+        "stripe"
+      ]
+    },
+    {
+      "name": "browsermcp",
+      "file_name": "browsermcp",
+      "description": "With Browser MCP, you can use MCP to automate your browser so that AI applications can navigate the web, fill out forms, and more.",
+      "category": "browser_automation",
+      "command": "npx",
+      "args": [
+        "@browsermcp/mcp@latest"
+      ],
+      "env": {},
+      "file_path": "cli-tool/components/mcps/browser_automation/browsermcp.json",
+      "quality_score": 70.8,
+      "score_details": {
+        "description_score": 15.8,
+        "config_score": 25,
+        "category_score": 10,
+        "dependency_score": 20,
+        "total_score": 70.8
+      },
+      "platform_dependencies": []
+    },
+    {
+      "name": "memory",
+      "file_name": "memory-integration",
+      "description": "Persistent memory and context management for Claude Code sessions. Store and recall information across conversations and projects.",
+      "category": "integration",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-memory"
+      ],
+      "env": {},
+      "file_path": "cli-tool/components/mcps/integration/memory-integration.json",
+      "quality_score": 70.8,
+      "score_details": {
+        "description_score": 10.8,
+        "config_score": 25,
+        "category_score": 15,
+        "dependency_score": 20,
+        "total_score": 70.8
+      },
+      "platform_dependencies": []
+    },
+    {
+      "name": "github",
+      "file_name": "github-integration",
+      "description": "Direct GitHub API integration for repository management, issue tracking, pull requests, and collaborative development workflows.",
+      "category": "integration",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-github"
+      ],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "<YOUR_TOKEN>"
+      },
+      "file_path": "cli-tool/components/mcps/integration/github-integration.json",
+      "quality_score": 70.7,
+      "score_details": {
+        "description_score": 10.7,
+        "config_score": 30,
+        "category_score": 15,
+        "dependency_score": 15,
+        "total_score": 70.7
+      },
+      "platform_dependencies": [
+        "github"
+      ]
+    },
+    {
+      "name": "Neon",
+      "file_name": "neon",
+      "description": "MCP server for interacting with Neon Management API and databases",
+      "category": "database",
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://mcp.neon.tech/mcp"
+      ],
+      "env": {},
+      "file_path": "cli-tool/components/mcps/database/neon.json",
+      "quality_score": 70.4,
+      "score_details": {
+        "description_score": 10.4,
+        "config_score": 25,
+        "category_score": 20,
+        "dependency_score": 15,
+        "total_score": 70.4
+      },
+      "platform_dependencies": [
+        "neon"
+      ]
+    },
+    {
+      "name": "aks",
+      "file_name": "azure-kubernetes-service",
+      "description": "The AKS-MCP is a Model Context Protocol (MCP) server that enables AI assistants to interact with Azure Kubernetes Service (AKS) clusters. It serves as a bridge between AI tools (like GitHub Copilot, Claude, and other MCP-compatible AI assistants) and AKS, translating natural language requests into AKS operations and returning the results in a format the AI tools can understand.",
+      "category": "devtools",
+      "command": "<path of binary aks-mcp>",
+      "args": [
+        "--transport",
+        "stdio"
+      ],
+      "env": {},
+      "file_path": "cli-tool/components/mcps/devtools/azure-kubernetes-service.json",
+      "quality_score": 80,
+      "score_details": {
+        "description_score": 30,
+        "config_score": 25,
+        "category_score": 15,
+        "dependency_score": 10,
+        "total_score": 80
+      },
+      "platform_dependencies": [
+        "azure",
+        "github"
+      ]
+    },
+    {
+      "name": "DeepGraph Vue MCP",
+      "file_name": "deepgraph-vue",
+      "description": "Analyze Vue.js applications including component composition, reactive data flow, and template-script relationships.",
+      "category": "deepgraph",
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-code-graph@latest",
+        "vuejs/core"
+      ],
+      "env": {},
+      "file_path": "cli-tool/components/mcps/deepgraph/deepgraph-vue.json",
+      "quality_score": 69.6,
+      "score_details": {
+        "description_score": 9.6,
+        "config_score": 25,
+        "category_score": 15,
+        "dependency_score": 20,
+        "total_score": 69.6
+      },
+      "platform_dependencies": []
+    },
+    {
+      "name": "DeepGraph React MCP",
+      "file_name": "deepgraph-react",
+      "description": "Analyze React component hierarchies, state flows, and dependencies. Visualize your React application architecture.",
+      "category": "deepgraph",
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-code-graph@latest",
+        "facebook/react"
+      ],
+      "env": {},
+      "file_path": "cli-tool/components/mcps/deepgraph/deepgraph-react.json",
+      "quality_score": 69.5,
+      "score_details": {
+        "description_score": 9.5,
+        "config_score": 25,
+        "category_score": 15,
+        "dependency_score": 20,
+        "total_score": 69.5
+      },
+      "platform_dependencies": []
+    },
+    {
+      "name": "DeepGraph TypeScript MCP",
+      "file_name": "deepgraph-typescript",
+      "description": "Comprehensive TypeScript code analysis with type mapping, interface relationships, and module dependency tracking.",
+      "category": "deepgraph",
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-code-graph@latest",
+        "microsoft/TypeScript"
+      ],
+      "env": {},
+      "file_path": "cli-tool/components/mcps/deepgraph/deepgraph-typescript.json",
+      "quality_score": 69.5,
+      "score_details": {
+        "description_score": 9.5,
+        "config_score": 25,
+        "category_score": 15,
+        "dependency_score": 20,
+        "total_score": 69.5
+      },
+      "platform_dependencies": []
+    },
+    {
+      "name": "notionApi",
+      "file_name": "notion",
+      "description": "Official MCP server for Notion API",
+      "category": "productivity",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@notionhq/notion-mcp-server"
+      ],
+      "env": {
+        "NOTION_TOKEN": "ntn_****"
+      },
+      "file_path": "cli-tool/components/mcps/productivity/notion.json",
+      "quality_score": 67.8,
+      "score_details": {
+        "description_score": 7.8,
+        "config_score": 30,
+        "category_score": 15,
+        "dependency_score": 15,
+        "total_score": 67.8
+      },
+      "platform_dependencies": [
+        "notion"
+      ]
+    },
+    {
+      "name": "leetcode",
+      "file_name": "leetcode",
+      "description": "A Model Context Protocol (MCP) server for LeetCode that enables AI assistants to access LeetCode problems, user information, and contest data.",
+      "category": "devtools",
+      "command": "mcp-server-leetcode",
+      "args": [],
+      "env": {},
+      "file_path": "cli-tool/components/mcps/devtools/leetcode.json",
+      "quality_score": 66.8,
+      "score_details": {
+        "description_score": 16.8,
+        "config_score": 15,
+        "category_score": 15,
+        "dependency_score": 20,
+        "total_score": 66.8
+      },
+      "platform_dependencies": []
+    },
+    {
+      "name": "markitdown",
+      "file_name": "markitdown",
+      "description": "Convert various file formats (PDF, Word, Excel, images, audio) to Markdown.",
+      "category": "devtools",
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "markitdown-mcp:latest"
+      ],
+      "env": {},
+      "file_path": "cli-tool/components/mcps/devtools/markitdown.json",
+      "quality_score": 66.2,
+      "score_details": {
+        "description_score": 6.2,
+        "config_score": 25,
+        "category_score": 15,
+        "dependency_score": 20,
+        "total_score": 66.2
+      },
+      "platform_dependencies": []
+    },
+    {
+      "name": "logfire",
+      "file_name": "logfire",
+      "description": "Provides access to OpenTelemetry traces and metrics through Logfire.",
+      "category": "devtools",
+      "command": "uvx",
+      "args": [
+        "logfire-mcp@latest",
+        "--read-token=YOUR-TOKEN"
+      ],
+      "env": {},
+      "file_path": "cli-tool/components/mcps/devtools/logfire.json",
+      "quality_score": 65.7,
+      "score_details": {
+        "description_score": 5.7,
+        "config_score": 25,
+        "category_score": 15,
+        "dependency_score": 20,
+        "total_score": 65.7
+      },
+      "platform_dependencies": []
+    },
+    {
+      "name": "mcp-server-nia",
+      "file_name": "mcp-server-nia",
+      "description": "",
+      "category": "deepresearch",
+      "command": "pipx",
+      "args": [
+        "run",
+        "--no-cache",
+        "nia-mcp-server"
+      ],
+      "env": {
+        "NIA_API_KEY": "YOUR_API_KEY",
+        "NIA_API_URL": "https://apigcp.trynia.ai/"
+      },
+      "file_path": "cli-tool/components/mcps/deepresearch/mcp-server-nia.json",
+      "quality_score": 65,
+      "score_details": {
+        "description_score": 0,
+        "config_score": 30,
+        "category_score": 15,
+        "dependency_score": 20,
+        "total_score": 65
+      },
+      "platform_dependencies": []
+    },
+    {
+      "name": "trello",
+      "file_name": "mcp-server-trello",
+      "description": "",
+      "category": "devtools",
+      "command": "pnpx",
+      "args": [
+        "@delorenj/mcp-server-trello"
+      ],
+      "env": {
+        "TRELLO_API_KEY": "your-api-key",
+        "TRELLO_TOKEN": "your-token"
+      },
+      "file_path": "cli-tool/components/mcps/devtools/mcp-server-trello.json",
+      "quality_score": 65,
+      "score_details": {
+        "description_score": 0,
+        "config_score": 30,
+        "category_score": 15,
+        "dependency_score": 20,
+        "total_score": 65
+      },
+      "platform_dependencies": []
+    },
+    {
+      "name": "serena",
+      "file_name": "serena",
+      "description": "Semantic code retrieval & editing tools for coding agents.",
+      "category": "devtools",
+      "command": "/abs/path/to/uv",
+      "args": [
+        "run",
+        "--directory",
+        "/abs/path/to/serena",
+        "serena",
+        "start-mcp-server"
+      ],
+      "env": {},
+      "file_path": "cli-tool/components/mcps/devtools/serena.json",
+      "quality_score": 64.8,
+      "score_details": {
+        "description_score": 4.8,
+        "config_score": 25,
+        "category_score": 15,
+        "dependency_score": 20,
+        "total_score": 64.8
+      },
+      "platform_dependencies": []
+    },
+    {
+      "name": "google-ads",
+      "file_name": "google-ads-mcp-server",
+      "description": "A FastMCP-powered Model Context Protocol server for Google Ads API integration with automatic OAuth 2.0 authentication",
+      "category": "marketing",
+      "command": "/full/path/to/your/project/.venv/bin/python",
+      "args": [
+        "/full/path/to/your/project/server.py"
+      ],
+      "env": {},
+      "file_path": "cli-tool/components/mcps/marketing/google-ads-mcp-server.json",
+      "quality_score": 64.8,
+      "score_details": {
+        "description_score": 14.8,
+        "config_score": 25,
+        "category_score": 10,
+        "dependency_score": 15,
+        "total_score": 64.8
+      },
+      "platform_dependencies": [
+        "google-ads"
+      ]
+    },
+    {
+      "name": "automatalabs-playwright-server",
+      "file_name": "mcp-server-playwright",
+      "description": "A Model Context Protocol server that provides browser automation capabilities using Playwright",
+      "category": "browser_automation",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@automatalabs/mcp-server-playwright"
+      ],
+      "env": {},
+      "file_path": "cli-tool/components/mcps/browser_automation/mcp-server-playwright.json",
+      "quality_score": 62.8,
+      "score_details": {
+        "description_score": 12.8,
+        "config_score": 25,
+        "category_score": 10,
+        "dependency_score": 15,
+        "total_score": 62.8
+      },
+      "platform_dependencies": [
+        "playwright"
+      ]
+    },
+    {
+      "name": "imagesorcery-mcp",
+      "file_name": "imagesorcery",
+      "description": "An MCP server providing tools for image processing operations",
+      "category": "devtools",
+      "command": "imagesorcery-mcp",
+      "args": [],
+      "env": {},
+      "file_path": "cli-tool/components/mcps/devtools/imagesorcery.json",
+      "quality_score": 60.1,
+      "score_details": {
+        "description_score": 10.1,
+        "config_score": 15,
+        "category_score": 15,
+        "dependency_score": 20,
+        "total_score": 60.1
+      },
+      "platform_dependencies": []
+    },
+    {
+      "name": "@microsoft/clarity-mcp-server",
+      "file_name": "microsoft-clarity",
+      "description": "",
+      "category": "devtools",
+      "command": "npx",
+      "args": [
+        "@microsoft/clarity-mcp-server",
+        "--clarity_api_token=your-api-token-here"
+      ],
+      "env": {},
+      "file_path": "cli-tool/components/mcps/devtools/microsoft-clarity.json",
+      "quality_score": 60,
+      "score_details": {
+        "description_score": 0,
+        "config_score": 25,
+        "category_score": 15,
+        "dependency_score": 20,
+        "total_score": 60
+      },
+      "platform_dependencies": []
+    }
+  ]
+}
